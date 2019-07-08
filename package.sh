@@ -16,7 +16,7 @@ fi
 TMPDIR=`mktemp -d`
 echo "$0: switching to $TMPDIR - script results can be found there"
 cd $TMPDIR
-git clone -b $1 https://github.com/samtecspg/conveyor.git
+git clone -b $1 https://github.com/NurFaizin/conveyor.git
 BUILD="conveyor-$1"
 mkdir $BUILD
 cp conveyor/docker-compose.yml $BUILD
